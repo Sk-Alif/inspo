@@ -1,0 +1,364 @@
+/*global css*/
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container-fluid{
+	padding-right: 0px
+}
+
+a {
+    color: none;
+    text-decoration: none;
+    background-color: none;
+}
+
+
+
+/*header css */
+header{
+	background: url(../image/banner.png);
+	background-position: center;
+	background-size: cover;
+	height: 100vh
+}
+.navbar{
+	padding: 35px 0px;
+
+}
+.navbar .nav-item{}
+.navbar .nav-item .nav-link{
+	padding: 7px 15px;
+	color: #fff;
+	transition: .4s linear;
+}
+.navbar .nav-item.active .nav-link{
+    color: #294af1;
+    background: #fff;
+    padding: 7px 25px;
+    border-radius: 30px;
+    padding-bottom: 7px;
+    transition: .4s linear;
+
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #0fea34;
+    border-bottom:2px solid #0fea34;
+    width: 100%
+}
+
+.navbar .nav-item.active .nav-link:hover{
+	color:#fff;
+	background:skyblue;
+	border-radius: 30px;
+	border-top: 1px solid deepskyblue;
+	border-bottom: 1px solid deepskyblue;
+ 
+
+
+}
+
+/*hero area css */
+.hero-area{
+	padding-top: 100px;
+    text-align: center;
+}
+.hero-area h1{
+	line-height: 1.7;
+    padding: 0px 17%;
+    font-size: 56px;
+    padding-bottom: 35px;
+    color: #fff
+}
+.hero-area .btn-start{
+	background: #fff;
+	color: #4856f3;
+	padding: 10px 35px;
+    border-radius: 18px;
+
+}
+.hero-area .btn-start:hover{
+	color: #fff;
+    background:skyblue;
+
+}
+
+ /*about us css*/
+.about-us {
+
+}
+.about-us .perfection{
+	text-align: right;
+	padding-right: 10%;
+}
+.about-us .perfection h2{
+	font-size: 15px;
+	margin-top: 139px;
+	color: #9f9f9f;
+	padding-right: 10px
+}
+.about-us .perfection p {
+	padding-left: 85px;
+	font-size: 50px;
+}
+
+.solution{}
+.solution .media{
+    padding-left: 11px;
+}
+.solution .media .media-body{
+	margin-bottom: 22px
+}
+.solution .media .media-body h5{}
+.solution .media .media-body p{
+	font-size: 14px;
+	line-height: 1.7
+}
+.solution .media .media-body img{}
+
+.about-img{
+
+	height: 645px;
+	background-size: cover;
+	background-position: center;
+	background: url(../image/work.png);
+}
+
+/*wht we do css*/
+.what-we-do{
+	background: #faf8f5;
+}
+.list{
+    padding: 100px 0px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 17%;
+}
+.list .list-group{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.list .list-group .list-group-item{
+    padding: 20px;
+    text-align: left;
+    box-shadow: 5px 10px 15px #7788994f;
+}
+
+
+.list .list-group .list-group-item:hover{
+	color: red;
+
+}
+
+
+.what-we-do .web-eng{
+    padding: 35% 0px;
+}
+.what-we-do .web-eng h5{
+    font-size: 14px;
+    color: #999999;
+}
+.what-we-do .web-eng h1{
+    padding-right: 7%;
+    margin-bottom: 35px;
+}
+.what-we-do .web-eng p{
+    line-height: 1.7;
+    color: #505457;
+}
+
+
+/*service css start*/
+.service{
+	padding-bottom: 60px
+}
+.service .offer{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 72px;
+}
+.service .offer h1{
+    margin-bottom: 30px;
+    padding: 0px 35%;
+}
+.service .offer p{
+    padding: 0px 30%;
+}
+
+.service .content{}
+.service .content img{
+    margin-bottom: 25px;
+
+}
+.service .content h5{
+    margin-bottom: 15px;
+}
+.service .content p{
+    padding-right: 6%;
+}
+.service .content .inner-content{
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+.service .content .inner-content h5{}
+.service .content .inner-content p{}
+
+/*think css start*/
+.think{
+	color:#fff;
+	text-align: center;
+	padding: 80px 0px;
+	background: url(../image/banner.png);
+	background-size: cover;
+	background-position: center;
+}
+.think h1{
+    margin-bottom: 30px;
+}
+.think p{
+    padding: 0px 23%;
+    margin-bottom: 60px;
+}
+.think .btn-start{
+	background:#fff;
+	color: blue;
+
+	border-radius: 20px;
+	padding: 12px 25px;
+}
+.think .btn-start:hover{
+	background:skyblue;
+	color: #fff;
+}
+.think .btn-tour{
+	background:transparent;
+	color: #fff;
+
+	border-radius: 20px;
+	padding: 12px 25px;
+}
+.think .btn-tour:hover{
+	background:skyblue;
+	color: #fff;
+
+}
+
+
+/*clint css start*/
+.clint{}
+.clint .asana{
+
+    margin-top: 20%;
+
+}
+.clint .asana ul{
+    list-style: none;
+
+}
+.clint .asana ul li{
+    float: left;
+    margin: top;
+    padding: 0px 16px;
+    margin-bottom: 10%;
+}
+  /*text css start*/
+.text{
+    margin-top: 40%;
+    padding-left: 60px;
+}
+.text h5{
+	color: #9f9f9f;
+	margin-bottom: 15px;
+}
+.text h1{
+    margin-bottom: 15px;
+}
+.text p{
+	color: #505457;
+	line-height: 1.7;
+}
+
+/*footer css start*/
+
+.footer{}
+.footer .inspo-footer{
+    margin-top: 30%;
+}
+.footer .inspo-footer img{
+    margin-bottom: 20px;
+}
+.footer .inspo-footer p{
+    color: #fff;
+}
+
+
+.footer{
+	background: url(../image/banner.png);
+	background-size: cover;
+	background-position: center;
+
+}
+.footer .contact{}
+.footer .contact .col-3{
+	float: left;
+}
+.footer .contact .inner-contact{
+    padding: 120px 0px;
+}
+.footer .contact .inner-contact ul{
+    list-style: none;
+    margin-left: 24px;
+}
+.footer .contact .inner-contact ul li{
+    margin-bottom: 22px;
+}
+.footer .contact .inner-contact ul li a{
+    padding: 10px 0px;
+    color: #fff;
+    transition: .2s linear;
+    text-decoration: none;
+
+}
+
+.footer .contact .inner-contact ul li a:hover{
+	color: #0fea34;
+    border-bottom:2px solid #0fea34;
+    width: 100%
+
+}
+
+.footer .contact .inner-contact ul li .first-child{
+	 color: #fff;
+	 font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
